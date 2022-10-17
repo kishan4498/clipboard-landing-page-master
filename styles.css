@@ -1,0 +1,190 @@
+*{
+  margin: 0px;
+  box-sizing: border-box;
+}
+body{
+  font-size: 18px;
+}
+header{
+  padding: 30px 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('F:/web dev learn/clipboard-landing-page-master/images/bg-header-desktop.png');
+  background-size: cover;
+}
+.logo {
+  position: relative;
+  margin-top: 80px;
+}
+
+#part1 {
+  display: grid;
+  grid-template: 1fr 1fr;
+  justify-items: center;
+  text-align: center;
+  margin-top: 40px;
+  grid-row-gap: 20px;
+}
+.pintro{
+  margin-top: 20px;
+}
+
+.formargin{
+
+  margin: 20px 630px 0px 630px;
+}
+.butgreen{
+  border-radius: 100px;
+  background-color: hsl(171, 66%, 44%);
+  border: none;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  opacity: 0.6;
+  transition: 0.3s;
+  box-shadow: 0px 8px 15px rgba(38, 186, 164, 0.5);
+}
+.butgreen:hover{
+  opacity: 1;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  transform: translateY(-7px);
+  transition-duration: 1s;
+}
+.butblue{
+  border-radius: 100px;
+  padding: 20px;
+  border: 0px;
+  background-color: hsl(233, 100%, 69%);
+  color: white;
+  opacity: 0.6;
+  transition: 0.3s;
+  border: none;
+  text-align: center;
+  box-shadow: 0px 8px 15px rgba(97, 115, 255, 0.5);
+}
+.butblue:hover{
+  opacity: 1;
+  box-shadow: 0px 15px 20px rgba(97, 115, 255, 0.4);
+  transform: translateY(-7px);
+  transition-duration: 1s;
+}
+
+.snippets{
+  margin-top: 150px;
+  display: flex;
+  text-align: center;
+  justify-items: center;
+  flex-direction: column;
+}
+.imagetext{
+  margin-top: 150px;
+  display: grid;
+  grid-template: 1fr / 1fr 1fr;
+}
+
+.sidetext{
+  display: grid;
+  grid-auto-rows: repeat(3, 1fr);
+  margin-right: 570px;
+  margin-top: 50px;
+}
+
+.clipboard{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-items: center;
+}
+
+.deviceimage {
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+}
+
+.workflow {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.threecol {
+  margin: 100px auto 0px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+}
+
+.blacklist {
+  text-align: center;
+}
+
+.plaintext {
+  text-align: center;
+}
+
+.sneakpreview {
+  text-align: center;
+}
+
+.brandlogos {
+  margin-top: 150px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  justify-items: center;
+}
+
+
+.logoforfooter{
+    display: flex;
+    justify-content: center;
+}
+
+.clipios {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  margin-top: 150px;
+}
+
+.textinfosite {
+  display: grid;
+  grid-template: 1fr 1fr / repeat(3, 1fr);
+  grid-row-gap: 20px;
+}
+
+.socialmedia :hover{
+    transform: scale(1.5);
+    transition-duration: 2s;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: space-around;
+}
+
+.watermark {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.button2 {
+  margin-top: 20px;
+}
+
+.deviceimage:hover{
+  transform: scale(1.2);
+  transition-duration: 2s;
+}
